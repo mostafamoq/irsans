@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Carto OSM Voyager",
+  "sources": {
+    "carto-voyager": {
+      "type": "raster",
+      "tiles": [
+        "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    }
+  },
+  "glyphs": "https://demotiles.maplibre.org/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "carto-voyager-layer",
+      "type": "raster",
+      "source": "carto-voyager",
+      "minzoom": 0,
+      "maxzoom": 20
+    }
+  ]
+}
