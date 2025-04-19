@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "OSM Dark (Carto)",
+  "name": "Carto OSM Dark",
   "sources": {
     "carto-dark": {
       "type": "raster",
@@ -9,8 +9,7 @@
         "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
         "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
       ],
-      "tileSize": 256,
-      "attribution": "© OpenStreetMap contributors, © CARTO"
+      "tileSize": 256
     }
   },
   "sprite": "https://demotiles.maplibre.org/sprites/basic",
