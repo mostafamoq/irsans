@@ -12,7 +12,6 @@
       "tileSize": 256
     }
   },
-  "sprite": "https://demotiles.maplibre.org/sprites/basic",
   "glyphs": "https://demotiles.maplibre.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
